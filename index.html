@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur d'unités</title>
+    <link rel="icon" href="/arrowconverter.png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="principal-section">
+         <div class="title">
+            <h1>Conversion des unités métriques/impériales</h1>
+         </div>
+         <div class="interactive-sec">
+            <input type="text" id="input-el">
+            <button id="convert-btn">Convertir</button>
+         </div>
+        </div>
+        <div class="results">
+            <div class="meters-feet">
+                <h3>Longueur Mètres/Pieds</h3>
+                <div id="meter-feet"></div>
+            </div>
+            <div class="liters-gallons">
+                <h3>Volume Litres/Gallons</h3>
+                <div id="liter-gallon"></div>
+            </div>
+            <div class="kgs-pounds">
+                <h3>Masse Kilogrammes/livres</h3>
+                <div id="kilo-pound"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
