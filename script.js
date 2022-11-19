@@ -12,10 +12,12 @@ const kiloPound = document.getElementById('kilo-pound');
 
 
 convertBtn.addEventListener("click", function(){ 
+    // just one button, just one click to get all the conversion
     let userValue = inputEl.value;
     let metersToFeet = userValue * units.meter;
     let feetToMeters = userValue / units.meter;
     
+    //Writing our answers in a single line with template strings
     metersFeet.innerHTML = `<p>${userValue} meters = ${metersToFeet.toFixed(3)} feet | 
     ${userValue} feet = ${feetToMeters.toFixed(3)} meters</p>`
 
